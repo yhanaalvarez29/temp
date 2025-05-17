@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TempMail Generator</title>
+    <title>EMAIL EXPRESS</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,12 +69,12 @@
 <body>
     <h1>TempMail Generator</h1>
     <div>
-        <button id="generateEmailBtn">Generate New Email</button>
-        <p id="generatedEmail"></p>
+        <button id="generateEmailBtn">nag processo na ang iyong email</button>
+        <p id="generateemail"></p>
     </div>
     <div>
         <button id="checkInboxBtn">Check Inbox</button>
-        <div id="inboxMessages"></div>
+        <div id="Express inbox"></div>
     </div>
     <script>
         let generatedEmailId;
@@ -107,7 +107,7 @@
                     inboxMessagesDiv.appendChild(messageElement);
                 });
             } else {
-                inboxMessagesDiv.textContent = 'No messages found';
+                inboxMessagesDiv.textContent = 'walang message na natanggap ang data';
             }
         });
     </script>
